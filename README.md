@@ -109,8 +109,8 @@ DROP PLUGGABLE DATABASE he_to_delete_pdb_28890 INCLUDING DATAFILES;
 SELECT name, open_mode FROM v$pdbs WHERE name = 'HE_TO_DELETE_PDB_28890';
 -- Result: no rows selected (PDB successfully deleted)
 ```
-
 **Evidence:**
+
 ![Temporary PDB Creation](https://github.com/user-attachments/assets/ede234b1-90d3-4c30-8ff1-4b2456ad3f28)
 
 ![Temporary PDB existence verification](https://github.com/user-attachments/assets/2601548e-d5e1-4ea5-95b3-296d8c56d168)
