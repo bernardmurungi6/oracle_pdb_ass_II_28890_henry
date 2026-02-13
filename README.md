@@ -69,9 +69,12 @@ SELECT username FROM dba_users WHERE username = 'HENRY_PLSQLAUCA_28890';
 ```
 
 **Evidence:**
-- Screenshot: PDB creation command and success message
-- Screenshot: PDB in READ WRITE mode
-- Screenshot: User created and verified
+![PDB creation](https://github.com/user-attachments/assets/b3f8101e-5c42-4eee-879f-aa265c4ac1c1)
+
+![PDB is in write mode ](https://github.com/user-attachments/assets/4f4e273f-4867-4b9b-ba0b-fa3a1a408a65)
+
+![User Created ](https://github.com/user-attachments/assets/dd7d2be9-75ba-4671-8bcf-83cf2c203590)
+
 
 ---
 
@@ -108,10 +111,14 @@ SELECT name, open_mode FROM v$pdbs WHERE name = 'HE_TO_DELETE_PDB_28890';
 ```
 
 **Evidence:**
-- Screenshot: Temporary PDB creation
-- Screenshot: PDB existence verification (MOUNTED state)
-- Screenshot: PDB deletion command and success
-- Screenshot: Deletion confirmation (no rows selected)
+![Temporary PDB Creation](https://github.com/user-attachments/assets/ede234b1-90d3-4c30-8ff1-4b2456ad3f28)
+
+![Temporary PDB existence verification](https://github.com/user-attachments/assets/2601548e-d5e1-4ea5-95b3-296d8c56d168)
+
+![Temporary PDB deletion](https://github.com/user-attachments/assets/1bf7030f-9d0f-463a-8c6b-23467839918e)
+
+![Temp PDB no longer exit ](https://github.com/user-attachments/assets/2f0845f8-dff5-4fe9-9e1d-126ae49ebb3b)
+
 
 ---
 
@@ -126,15 +133,8 @@ SELECT name, open_mode FROM v$pdbs WHERE name = 'HE_TO_DELETE_PDB_28890';
 4. Verified CDB with 2 PDBs
 5. Captured dashboard showing database status and resources
 
-**Dashboard Information:**
-- Database: XE (21.3.0.0.0)
-- Type: Single Instance (xe)
-- Container Database: CDB (2 PDB(s))
-- Platform: Microsoft Windows x86 64-bit
-- PDBs visible in Data Storage chart: HE_PDB_28890 and XEPDB1
-
 **Evidence:**
-- Screenshot: OEM Dashboard with database information and PDB visualization in Data Storage section
+![OEM Dashboard ](https://github.com/user-attachments/assets/d8d6dac5-5e02-48e0-99e8-07c18676aa6d)
 
 ---
 
